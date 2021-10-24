@@ -3,3 +3,4 @@ node_modules/
 .DS_Store
 .ruby-version
 /config/master.key
+/config/credentials.yml.enc
