@@ -62,3 +62,141 @@ Migrating to CreateTodos (20211024185517)
   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(8535192876944776140)[0m
   [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (2.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Todo 1"], ["created_at", "2021-10-24 19:02:47.029858"], ["updated_at", "2021-10-24 19:02:47.029858"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.5ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Todo 2"], ["created_at", "2021-10-24 19:02:47.057255"], ["updated_at", "2021-10-24 19:02:47.057255"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.3ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Todo 3"], ["created_at", "2021-10-24 19:02:47.082886"], ["updated_at", "2021-10-24 19:02:47.082886"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.4ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Todo 4"], ["created_at", "2021-10-24 19:02:47.087493"], ["updated_at", "2021-10-24 19:02:47.087493"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.3ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Todo 5"], ["created_at", "2021-10-24 19:02:47.092023"], ["updated_at", "2021-10-24 19:02:47.092023"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Todo 1"], ["completed", true], ["created_at", "2021-10-24 19:02:47.095949"], ["updated_at", "2021-10-24 19:02:47.095949"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Todo 2"], ["completed", true], ["created_at", "2021-10-24 19:02:47.103754"], ["updated_at", "2021-10-24 19:02:47.103754"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.3ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Todo 3"], ["completed", true], ["created_at", "2021-10-24 19:02:47.111128"], ["updated_at", "2021-10-24 19:02:47.111128"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.3ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Todo 4"], ["completed", true], ["created_at", "2021-10-24 19:02:47.115955"], ["updated_at", "2021-10-24 19:02:47.115955"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.3ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Todo 5"], ["completed", true], ["created_at", "2021-10-24 19:02:47.119614"], ["updated_at", "2021-10-24 19:02:47.119614"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2021-10-24 13:07:04 -0600
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 277)
+[Webpacker] Compiling...
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 13:07:08 -0600
+Processing by TodosController#all_todos as HTML
+  [1m[36mTodo Load (1.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."completed" = $1[0m  [["completed", true]]
+  ↳ app/controllers/todos_controller.rb:5:in `all_todos'
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."completed" = $1[0m  [["completed", false]]
+  ↳ app/controllers/todos_controller.rb:5:in `all_todos'
+Completed 200 OK in 70ms (Views: 15.3ms | ActiveRecord: 31.4ms | Allocations: 11725)
+
+
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 6a06e1100c609ce6f34a
+Version: webpack 4.46.0
+Time: 2198ms
+Built at: 10/24/2021 1:07:09 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-8a4ed52aa99a4369fd0c.js   1.09 MiB        index  [emitted] [immutable]  index
+      js/index-8a4ed52aa99a4369fd0c.js.map   1.26 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-8a4ed52aa99a4369fd0c.js js/index-8a4ed52aa99a4369fd0c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 1.07 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 4831.5ms | Allocations: 22049)
+Completed 200 OK in 4845ms (Views: 4836.2ms | ActiveRecord: 0.0ms | Allocations: 24827)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 13:08:14 -0600
+  
+SyntaxError (/Users/andrewstarks/Projects/kadince-coding-task/app/controllers/todos_controller.rb:3: syntax error, unexpected '}', expecting =>
+    render json: {Todo}
+                      ^
+):
+  
+app/controllers/todos_controller.rb:3: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:3: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:3: syntax error, unexpected '}', expecting =>
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 13:12:27 -0600
+  
+SyntaxError (/Users/andrewstarks/Projects/kadince-coding-task/app/controllers/todos_controller.rb:3: dynamic constant assignment
+    Todos = Todo.all.order(create_at: ...
+    ^~~~~
+/Users/andrewstarks/Projects/kadince-coding-task/app/controllers/todos_controller.rb:4: syntax error, unexpected '}', expecting =>
+    render json: {Todos}
+                       ^
+):
+  
+app/controllers/todos_controller.rb:3: dynamic constant assignment
+app/controllers/todos_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:3: dynamic constant assignment
+app/controllers/todos_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:3: dynamic constant assignment
+app/controllers/todos_controller.rb:4: syntax error, unexpected '}', expecting =>
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 13:13:07 -0600
+  
+SyntaxError (/Users/andrewstarks/Projects/kadince-coding-task/app/controllers/todos_controller.rb:4: syntax error, unexpected '}', expecting =>
+    render json: {todos}
+                       ^
+):
+  
+app/controllers/todos_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/todos_controller.rb:4: syntax error, unexpected '}', expecting =>
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 13:13:19 -0600
+Processing by TodosController#all_todos as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3485)
+
+
+  
+NameError (undefined local variable or method `desc' for #<TodosController:0x0000000000b4f0>):
+  
+app/controllers/todos_controller.rb:3:in `all_todos'
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 13:13:40 -0600
+Processing by TodosController#all_todos as HTML
+  [1m[36mTodo Load (2.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "create_at" DESC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 7.6ms | Allocations: 2963)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column "create_at" does not exist
+LINE 1: SELECT "todos".* FROM "todos" ORDER BY "create_at" DESC
+                                               ^
+HINT:  Perhaps you meant to reference the column "todos.created_at".
+):
+  
+app/controllers/todos_controller.rb:4:in `all_todos'
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 13:13:47 -0600
+Processing by TodosController#all_todos as HTML
+  [1m[36mTodo Load (3.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" DESC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 23ms (Views: 7.4ms | ActiveRecord: 12.1ms | Allocations: 5284)
+
+
