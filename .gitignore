@@ -4,3 +4,4 @@ node_modules/
 .ruby-version
 /config/master.key
 /config/credentials.yml.enc
+/public/packs/js
