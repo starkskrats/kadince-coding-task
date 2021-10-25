@@ -22,12 +22,6 @@ const TodoItem = ({ todo, handleSubmit, handleDelete }) => {
     })
   }
 
-  const handleKeyDown = (event) => {
-    if (event.key === 'Enter') {
-        updateTodo();
-    }
-  }
-
   const updateTodo = () => {
       setEditing(false);
       handleSubmit(targetTodo);
@@ -42,7 +36,7 @@ const TodoItem = ({ todo, handleSubmit, handleDelete }) => {
         <div className="input-group-text">
             <input className="form-check-input mt-0" type="checkbox" disabled defaultChecked={targetTodo.completed} />
         </div>
-        <input type="text" className="form-control" value={targetTodo.title} onChange={handleTitleChange} onKeyDown={handleKeyDown} />
+        <input type="text" className="form-control" value={targetTodo.title} onChange={handleTitleChange} />
         <button className="btn btn-success" type="button" onClick={updateTodo}>Save</button>
         <button className="btn btn-danger" type="button" onClick={ handleDeleteClick }>Delete</button>
     </div>
