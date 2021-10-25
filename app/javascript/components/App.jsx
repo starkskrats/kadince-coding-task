@@ -78,6 +78,32 @@ const App  = () => {
           })
           .then(response => {
             setTodos([...todos, response]);
+            document.getElementById('addTodo').value = '';
+            return false;
+          })
+          .catch(() => console.log('An error occurred while adding the todo item'));
+      }
+
+      const handleDelete = (body) => {
+        const url = "/todos/delete";
+        const token = document.querySelector('meta[name="csrf-token"]').content;
+    
+        fetch(url, {
+          method: "DELETE",
+          headers: {
+            "X-CSRF-Token": token,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(body)
+        })
+          .then(response => {
+            if (response.ok) {
+              return response.json();
+            }
+            throw new Error("Network response was not ok.");
+          })
+          .then(response => {
+            setTodos(todos.filter((todo) => body.id !== todo.id))
             return false;
           })
           .catch(() => console.log('An error occurred while adding the todo item'));
@@ -89,7 +115,7 @@ return (
   <form>
             <h2>Enter a task to add to the list</h2>
             <div className="input-group mb-3">
-                <input type="text" className="form-control" onChange={handleChange} />
+                <input type="text" id="addTodo" className="form-control" onChange={handleChange} />
                 <button className="btn btn-primary" type="button" onClick={handleClick}>Add</button>
             </div>
         </form>
@@ -103,7 +129,7 @@ return (
         <label className="btn btn-outline-primary" htmlFor="complete">Complete</label>
       </div>
   </div>
-  <List todoList={todos} handleUpdate={handleUpdate} />
+  <List todoList={todos} handleUpdate={handleUpdate} handleDelete={handleDelete} />
   </div>
   )
 }

@@ -5360,3 +5360,2007 @@ Processing by TodosController#all_todos as */*
 Completed 200 OK in 25ms (Views: 16.0ms | ActiveRecord: 1.8ms | Allocations: 2928)
 
 
+Started GET "/" for 127.0.0.1 at 2021-10-24 22:29:50 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 8ffc9e691ae37e10a2ad
+Version: webpack 4.46.0
+Time: 4614ms
+Built at: 10/24/2021 10:29:57 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-792088dd58673b15a457.js   2.52 MiB        index  [emitted] [immutable]  index
+      js/index-792088dd58673b15a457.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-792088dd58673b15a457.js js/index-792088dd58673b15a457.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7343.4ms | Allocations: 4682)
+Completed 200 OK in 7352ms (Views: 7346.3ms | ActiveRecord: 0.0ms | Allocations: 5124)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 22:29:58 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (99.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 169ms (Views: 63.5ms | ActiveRecord: 99.4ms | Allocations: 2927)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 22:30:10 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 3465)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms | Allocations: 3906)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 22:30:10 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (3.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 18ms (Views: 9.1ms | ActiveRecord: 3.9ms | Allocations: 3380)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 22:30:13 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 3459)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 3901)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 22:30:13 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 19ms (Views: 7.2ms | ActiveRecord: 1.9ms | Allocations: 2927)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 22:30:15 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 3461)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms | Allocations: 3903)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 22:30:15 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (10.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 41ms (Views: 6.7ms | ActiveRecord: 10.4ms | Allocations: 3159)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 22:30:24 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>1, "title"=>"andrew", "completed"=>false, "created_at"=>"2021-10-24T19:02:47.029Z", "updated_at"=>"2021-10-25T04:25:47.578Z", "todo"=>{"id"=>1, "title"=>"andrew", "completed"=>false, "created_at"=>"2021-10-24T19:02:47.029Z", "updated_at"=>"2021-10-25T04:25:47.578Z"}}
+  [1m[36mTodo Load (2.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:17:in `update'
+  [1m[36mTodo Update (1.1ms)[0m  [1m[33mUPDATE "todos" SET "title" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["title", "andrew"], ["updated_at", "2021-10-25 04:30:24.101546"], ["id", 1]]
+  ↳ app/controllers/todos_controller.rb:17:in `update'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:17:in `update'
+Completed 200 OK in 17ms (Views: 0.9ms | ActiveRecord: 6.2ms | Allocations: 3042)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 22:30:25 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 3467)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.0ms | Allocations: 3909)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 22:30:26 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 9ms (Views: 5.3ms | ActiveRecord: 1.2ms | Allocations: 2927)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 22:30:29 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>1, "title"=>"andrew", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.029Z", "updated_at"=>"2021-10-25T04:30:24.101Z", "todo"=>{"id"=>1, "title"=>"andrew", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.029Z", "updated_at"=>"2021-10-25T04:30:24.101Z"}}
+  [1m[36mTodo Load (2.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:17:in `update'
+  [1m[36mTodo Update (1.2ms)[0m  [1m[33mUPDATE "todos" SET "completed" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["completed", true], ["updated_at", "2021-10-25 04:30:29.318580"], ["id", 1]]
+  ↳ app/controllers/todos_controller.rb:17:in `update'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:17:in `update'
+Completed 200 OK in 19ms (Views: 0.4ms | ActiveRecord: 6.3ms | Allocations: 3042)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 22:30:30 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 3460)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 3902)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 22:30:31 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 20ms (Views: 14.4ms | ActiveRecord: 2.5ms | Allocations: 3291)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:09:51 -0600
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/andrewstarks/Projects/kadince-coding-task/app/controllers/todos_controller.rb:33: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/todos_controller.rb:33: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/todos_controller.rb:33: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/todos_controller.rb:33: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:10:59 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 99)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 036880cc7c4ff28aa614
+Version: webpack 4.46.0
+Time: 4130ms
+Built at: 10/24/2021 11:11:06 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-6adfa1455c36ba51493e.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-6adfa1455c36ba51493e.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-6adfa1455c36ba51493e.js js/index-6adfa1455c36ba51493e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7183.2ms | Allocations: 14727)
+Completed 200 OK in 7199ms (Views: 7186.6ms | ActiveRecord: 0.0ms | Allocations: 17204)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:11:06 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (5.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 200ms (Views: 39.4ms | ActiveRecord: 110.6ms | Allocations: 9458)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+Processing by TodosController#delete as */*
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  Parameters: {"id"=>1, "title"=>"andrew", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.029Z", "updated_at"=>"2021-10-25T04:30:29.318Z", "todo"=>{"id"=>1, "title"=>"andrew", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.029Z", "updated_at"=>"2021-10-25T04:30:29.318Z"}}
+Processing by TodosController#delete as */*
+Processing by TodosController#delete as */*
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  Parameters: {"id"=>2, "title"=>"Todo 2", "completed"=>false, "created_at"=>"2021-10-24T19:02:47.057Z", "updated_at"=>"2021-10-24T19:02:47.057Z", "todo"=>{"id"=>2, "title"=>"Todo 2", "completed"=>false, "created_at"=>"2021-10-24T19:02:47.057Z", "updated_at"=>"2021-10-24T19:02:47.057Z"}}
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>3, "title"=>"asdjknasjkdnasdk", "completed"=>false, "created_at"=>"2021-10-24T19:02:47.082Z", "updated_at"=>"2021-10-25T03:57:23.547Z", "todo"=>{"id"=>3, "title"=>"asdjknasjkdnasdk", "completed"=>false, "created_at"=>"2021-10-24T19:02:47.082Z", "updated_at"=>"2021-10-25T03:57:23.547Z"}}
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  Parameters: {"id"=>4, "title"=>"Todo 4", "completed"=>false, "created_at"=>"2021-10-24T19:02:47.087Z", "updated_at"=>"2021-10-24T19:02:47.087Z", "todo"=>{"id"=>4, "title"=>"Todo 4", "completed"=>false, "created_at"=>"2021-10-24T19:02:47.087Z", "updated_at"=>"2021-10-24T19:02:47.087Z"}}
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>5, "title"=>"Todo 5", "completed"=>false, "created_at"=>"2021-10-24T19:02:47.092Z", "updated_at"=>"2021-10-24T19:02:47.092Z", "todo"=>{"id"=>5, "title"=>"Todo 5", "completed"=>false, "created_at"=>"2021-10-24T19:02:47.092Z", "updated_at"=>"2021-10-24T19:02:47.092Z"}}
+  [1m[36mTodo Load (5.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (5.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (15.5ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 121ms (Views: 0.5ms | ActiveRecord: 47.8ms | Allocations: 11447)
+
+
+  [1m[36mTodo Load (15.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTodo Load (23.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (17.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Load (11.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTodo Destroy (73.0ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 4]]
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>7, "title"=>"Todo 2", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.103Z", "updated_at"=>"2021-10-24T19:02:47.103Z", "todo"=>{"id"=>7, "title"=>"Todo 2", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.103Z", "updated_at"=>"2021-10-24T19:02:47.103Z"}}
+  [1m[36mTRANSACTION (14.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (6.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Load (11.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTodo Destroy (7.4ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 3]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (8.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (10.4ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 5]]
+  [1m[36mTodo Load (3.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (15.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 268ms (Views: 0.4ms | ActiveRecord: 156.9ms | Allocations: 30010)
+
+
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 275ms (Views: 0.4ms | ActiveRecord: 88.3ms | Allocations: 31129)
+
+
+  [1m[36mTodo Destroy (6.2ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 7]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 62ms (Views: 0.4ms | ActiveRecord: 29.0ms | Allocations: 8008)
+
+
+  [1m[36mTRANSACTION (13.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 287ms (Views: 5.3ms | ActiveRecord: 95.4ms | Allocations: 32803)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (3.1ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Processing by TodosController#delete as */*
+  [1m[36mTRANSACTION (10.0ms)[0m  [1m[35mCOMMIT[0m
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  Parameters: {"id"=>8, "title"=>"Todo 3", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.111Z", "updated_at"=>"2021-10-24T19:02:47.111Z", "todo"=>{"id"=>8, "title"=>"Todo 3", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.111Z", "updated_at"=>"2021-10-24T19:02:47.111Z"}}
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 333ms (Views: 0.2ms | ActiveRecord: 144.8ms | Allocations: 38320)
+
+
+  [1m[36mTodo Load (6.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>9, "title"=>"Todo 4", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.115Z", "updated_at"=>"2021-10-24T19:02:47.115Z", "todo"=>{"id"=>9, "title"=>"Todo 4", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.115Z", "updated_at"=>"2021-10-24T19:02:47.115Z"}}
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mBEGIN[0m
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  [1m[36mTodo Load (4.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTodo Destroy (2.3ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 8]]
+Processing by TodosController#delete as */*
+Processing by TodosController#delete as */*
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  Parameters: {"id"=>10, "title"=>"Todo 5", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.119Z", "updated_at"=>"2021-10-24T19:02:47.119Z", "todo"=>{"id"=>10, "title"=>"Todo 5", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.119Z", "updated_at"=>"2021-10-24T19:02:47.119Z"}}
+Processing by TodosController#delete as */*
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  Parameters: {"id"=>12, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T02:43:05.034Z", "updated_at"=>"2021-10-25T02:43:05.034Z", "todo"=>{"id"=>12, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T02:43:05.034Z", "updated_at"=>"2021-10-25T02:43:05.034Z"}}
+  Parameters: {"id"=>11, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T02:42:55.498Z", "updated_at"=>"2021-10-25T02:42:55.498Z", "todo"=>{"id"=>11, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T02:42:55.498Z", "updated_at"=>"2021-10-25T02:42:55.498Z"}}
+  [1m[36mTodo Destroy (2.4ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 9]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Load (1.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTodo Load (4.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 49ms (Views: 0.3ms | ActiveRecord: 11.3ms | Allocations: 10162)
+
+
+  [1m[36mTodo Load (2.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+Completed 200 OK in 57ms (Views: 0.4ms | ActiveRecord: 11.8ms | Allocations: 10513)
+
+
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.7ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 11]]
+  [1m[36mTodo Destroy (5.6ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 12]]
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  [1m[36mTodo Destroy (4.9ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 10]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 55ms (Views: 0.2ms | ActiveRecord: 10.8ms | Allocations: 9914)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+Processing by TodosController#delete as */*
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>13, "title"=>"test2", "completed"=>false, "created_at"=>"2021-10-25T02:57:27.386Z", "updated_at"=>"2021-10-25T02:57:27.386Z", "todo"=>{"id"=>13, "title"=>"test2", "completed"=>false, "created_at"=>"2021-10-25T02:57:27.386Z", "updated_at"=>"2021-10-25T02:57:27.386Z"}}
+  [1m[36mTRANSACTION (6.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 71ms (Views: 0.5ms | ActiveRecord: 9.3ms | Allocations: 12784)
+
+
+  Parameters: {"id"=>14, "title"=>"test3", "completed"=>false, "created_at"=>"2021-10-25T02:59:47.660Z", "updated_at"=>"2021-10-25T02:59:47.660Z", "todo"=>{"id"=>14, "title"=>"test3", "completed"=>false, "created_at"=>"2021-10-25T02:59:47.660Z", "updated_at"=>"2021-10-25T02:59:47.660Z"}}
+  [1m[36mTodo Load (4.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+Completed 200 OK in 79ms (Views: 0.3ms | ActiveRecord: 20.0ms | Allocations: 14332)
+
+
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[35mBEGIN[0m
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>15, "title"=>"test4", "completed"=>false, "created_at"=>"2021-10-25T02:59:53.776Z", "updated_at"=>"2021-10-25T02:59:53.776Z", "todo"=>{"id"=>15, "title"=>"test4", "completed"=>false, "created_at"=>"2021-10-25T02:59:53.776Z", "updated_at"=>"2021-10-25T02:59:53.776Z"}}
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>16, "title"=>"test5", "completed"=>false, "created_at"=>"2021-10-25T03:02:17.425Z", "updated_at"=>"2021-10-25T03:02:17.425Z", "todo"=>{"id"=>16, "title"=>"test5", "completed"=>false, "created_at"=>"2021-10-25T03:02:17.425Z", "updated_at"=>"2021-10-25T03:02:17.425Z"}}
+  [1m[36mTodo Destroy (10.4ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 13]]
+  [1m[36mTodo Load (8.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTodo Destroy (4.6ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 14]]
+  [1m[36mTodo Load (2.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Processing by TodosController#delete as */*
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  Parameters: {"id"=>17, "title"=>"test6", "completed"=>false, "created_at"=>"2021-10-25T03:03:04.462Z", "updated_at"=>"2021-10-25T03:03:04.462Z", "todo"=>{"id"=>17, "title"=>"test6", "completed"=>false, "created_at"=>"2021-10-25T03:03:04.462Z", "updated_at"=>"2021-10-25T03:03:04.462Z"}}
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 57ms (Views: 0.2ms | ActiveRecord: 22.1ms | Allocations: 11074)
+
+
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (2.9ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 15]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Load (1.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.4ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 16]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 59ms (Views: 0.2ms | ActiveRecord: 9.0ms | Allocations: 13175)
+
+
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 54ms (Views: 0.2ms | ActiveRecord: 14.1ms | Allocations: 11545)
+
+
+  [1m[36mTRANSACTION (7.6ms)[0m  [1m[35mBEGIN[0m
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 45ms (Views: 0.2ms | ActiveRecord: 7.9ms | Allocations: 11355)
+
+
+  [1m[36mTodo Destroy (2.5ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 17]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Processing by TodosController#delete as */*
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  Parameters: {"id"=>18, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T04:00:25.592Z", "updated_at"=>"2021-10-25T04:00:25.592Z", "todo"=>{"id"=>18, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T04:00:25.592Z", "updated_at"=>"2021-10-25T04:00:25.592Z"}}
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 40ms (Views: 0.2ms | ActiveRecord: 14.0ms | Allocations: 10186)
+
+
+  [1m[36mTodo Load (3.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+Processing by TodosController#delete as */*
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  Parameters: {"id"=>19, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T04:21:55.730Z", "updated_at"=>"2021-10-25T04:21:55.730Z", "todo"=>{"id"=>19, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T04:21:55.730Z", "updated_at"=>"2021-10-25T04:21:55.730Z"}}
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mBEGIN[0m
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Processing by TodosController#delete as */*
+  [1m[36mTodo Load (2.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>21, "title"=>"hello", "completed"=>false, "created_at"=>"2021-10-25T04:24:46.644Z", "updated_at"=>"2021-10-25T04:24:46.644Z", "todo"=>{"id"=>21, "title"=>"hello", "completed"=>false, "created_at"=>"2021-10-25T04:24:46.644Z", "updated_at"=>"2021-10-25T04:24:46.644Z"}}
+  Parameters: {"id"=>20, "title"=>"kasdasd", "completed"=>false, "created_at"=>"2021-10-25T04:24:37.393Z", "updated_at"=>"2021-10-25T04:24:37.393Z", "todo"=>{"id"=>20, "title"=>"kasdasd", "completed"=>false, "created_at"=>"2021-10-25T04:24:37.393Z", "updated_at"=>"2021-10-25T04:24:37.393Z"}}
+  [1m[36mTodo Destroy (2.3ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 18]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Load (3.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTodo Load (3.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTodo Destroy (2.0ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 19]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mBEGIN[0m
+Completed 200 OK in 43ms (Views: 0.2ms | ActiveRecord: 11.4ms | Allocations: 11106)
+
+
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.0ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 21]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTodo Destroy (5.4ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 20]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 46ms (Views: 0.3ms | ActiveRecord: 9.6ms | Allocations: 13056)
+
+
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 46ms (Views: 1.2ms | ActiveRecord: 9.5ms | Allocations: 10428)
+
+
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 50ms (Views: 0.4ms | ActiveRecord: 12.3ms | Allocations: 11951)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:11:07 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>6, "title"=>"Todo 1", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.095Z", "updated_at"=>"2021-10-24T19:02:47.095Z", "todo"=>{"id"=>6, "title"=>"Todo 1", "completed"=>true, "created_at"=>"2021-10-24T19:02:47.095Z", "updated_at"=>"2021-10-24T19:02:47.095Z"}}
+  [1m[36mTodo Load (5.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.1ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (8.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 40ms (Views: 0.5ms | ActiveRecord: 15.4ms | Allocations: 5209)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:11:40 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 3595)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 3915)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:11:40 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (3.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 8ms (Views: 2.3ms | ActiveRecord: 3.2ms | Allocations: 997)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:11:48 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 3568)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 3886)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:11:48 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 8ms (Views: 1.7ms | ActiveRecord: 1.8ms | Allocations: 997)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:12:09 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"test", "completed"=>false, "todo"=>{"title"=>"test", "completed"=>false}}
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (5.0ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "test"], ["created_at", "2021-10-25 05:12:09.884484"], ["updated_at", "2021-10-25 05:12:09.884484"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 7.4ms | Allocations: 2879)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:12:09 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>22, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:09.884Z", "updated_at"=>"2021-10-25T05:12:09.884Z", "todo"=>{"id"=>22, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:09.884Z", "updated_at"=>"2021-10-25T05:12:09.884Z"}}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.1ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 22]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 4.6ms | Allocations: 2746)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:12:12 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>22, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:09.884Z", "updated_at"=>"2021-10-25T05:12:09.884Z", "todo"=>{"id"=>22, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:09.884Z", "updated_at"=>"2021-10-25T05:12:09.884Z"}}
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 985)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 23:12:12 -0600
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:12:12 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>22, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:09.884Z", "updated_at"=>"2021-10-25T05:12:09.884Z", "todo"=>{"id"=>22, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:09.884Z", "updated_at"=>"2021-10-25T05:12:09.884Z"}}
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>22, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:09.884Z", "updated_at"=>"2021-10-25T05:12:09.884Z", "todo"=>{"id"=>22, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:09.884Z", "updated_at"=>"2021-10-25T05:12:09.884Z"}}
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.2ms | Allocations: 1541)
+
+
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 1869)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:12:12 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>22, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:09.884Z", "updated_at"=>"2021-10-25T05:12:09.884Z", "todo"=>{"id"=>22, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:09.884Z", "updated_at"=>"2021-10-25T05:12:09.884Z"}}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 1076)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:12:17 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.9ms | Allocations: 3567)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.0ms | Allocations: 3886)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:12:17 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 12ms (Views: 5.4ms | ActiveRecord: 2.6ms | Allocations: 997)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:12:25 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"test", "completed"=>false, "todo"=>{"title"=>"test", "completed"=>false}}
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (2.4ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "test"], ["created_at", "2021-10-25 05:12:25.834138"], ["updated_at", "2021-10-25 05:12:25.834138"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 18ms (Views: 1.2ms | ActiveRecord: 6.4ms | Allocations: 2523)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:12:25 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>23, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:25.834Z", "updated_at"=>"2021-10-25T05:12:25.834Z", "todo"=>{"id"=>23, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:25.834Z", "updated_at"=>"2021-10-25T05:12:25.834Z"}}
+  [1m[36mTodo Load (3.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.9ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 23]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 23ms (Views: 0.2ms | ActiveRecord: 9.7ms | Allocations: 2934)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:12:28 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>23, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:25.834Z", "updated_at"=>"2021-10-25T05:12:25.834Z", "todo"=>{"id"=>23, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:25.834Z", "updated_at"=>"2021-10-25T05:12:25.834Z"}}
+  [1m[36mTodo Load (1.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.4ms | Allocations: 985)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:12:29 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"test1", "completed"=>false, "todo"=>{"title"=>"test1", "completed"=>false}}
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (1.1ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "test1"], ["created_at", "2021-10-25 05:12:29.029028"], ["updated_at", "2021-10-25 05:12:29.029028"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 5.3ms | Allocations: 2522)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:12:29 -0600
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:12:29 -0600
+Processing by TodosController#delete as */*
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>24, "title"=>"test1", "completed"=>false, "created_at"=>"2021-10-25T05:12:29.029Z", "updated_at"=>"2021-10-25T05:12:29.029Z", "todo"=>{"id"=>24, "title"=>"test1", "completed"=>false, "created_at"=>"2021-10-25T05:12:29.029Z", "updated_at"=>"2021-10-25T05:12:29.029Z"}}
+  Parameters: {"id"=>23, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:25.834Z", "updated_at"=>"2021-10-25T05:12:25.834Z", "todo"=>{"id"=>23, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:25.834Z", "updated_at"=>"2021-10-25T05:12:25.834Z"}}
+  [1m[36mTodo Load (1.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTodo Load (5.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 5.2ms | Allocations: 2336)
+
+
+  [1m[36mTodo Destroy (2.7ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 24]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 6.2ms | Allocations: 4028)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:12:31 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 3575)
+Completed 200 OK in 22ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 3893)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:12:32 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 1.5ms | Allocations: 997)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:12:39 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"test", "completed"=>false, "todo"=>{"title"=>"test", "completed"=>false}}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (5.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "test"], ["created_at", "2021-10-25 05:12:39.943859"], ["updated_at", "2021-10-25 05:12:39.943859"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 7.6ms | Allocations: 2520)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:12:39 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>25, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:39.943Z", "updated_at"=>"2021-10-25T05:12:39.943Z", "todo"=>{"id"=>25, "title"=>"test", "completed"=>false, "created_at"=>"2021-10-25T05:12:39.943Z", "updated_at"=>"2021-10-25T05:12:39.943Z"}}
+  [1m[36mTodo Load (2.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (6.6ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 25]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 31ms (Views: 0.4ms | ActiveRecord: 14.2ms | Allocations: 2746)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:12:41 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 3567)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:12:41 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 7ms (Views: 3.5ms | ActiveRecord: 1.7ms | Allocations: 997)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:13:15 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 0b813be2ab59486b665e
+Version: webpack 4.46.0
+Time: 3781ms
+Built at: 10/24/2021 11:13:22 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-0343113ea4343c000db5.js   2.52 MiB        index  [emitted] [immutable]  index
+      js/index-0343113ea4343c000db5.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-0343113ea4343c000db5.js js/index-0343113ea4343c000db5.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6543.4ms | Allocations: 4779)
+Completed 200 OK in 6546ms (Views: 6544.3ms | ActiveRecord: 0.0ms | Allocations: 5097)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:14:15 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: e7617be9c45b90eb88fd
+Version: webpack 4.46.0
+Time: 3390ms
+Built at: 10/24/2021 11:14:21 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-d73d00e84e3ee4153afb.js   2.52 MiB        index  [emitted] [immutable]  index
+      js/index-d73d00e84e3ee4153afb.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-d73d00e84e3ee4153afb.js js/index-d73d00e84e3ee4153afb.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5905.0ms | Allocations: 4822)
+Completed 200 OK in 5910ms (Views: 5908.8ms | ActiveRecord: 0.0ms | Allocations: 5325)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:14:45 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 8ffc9e691ae37e10a2ad
+Version: webpack 4.46.0
+Time: 3661ms
+Built at: 10/24/2021 11:14:51 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-792088dd58673b15a457.js   2.52 MiB        index  [emitted] [immutable]  index
+      js/index-792088dd58673b15a457.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-792088dd58673b15a457.js js/index-792088dd58673b15a457.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6074.2ms | Allocations: 4781)
+Completed 200 OK in 6077ms (Views: 6075.9ms | ActiveRecord: 0.0ms | Allocations: 5099)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:14:51 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (5.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 47ms (Views: 3.0ms | ActiveRecord: 24.7ms | Allocations: 5678)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:14:56 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"test", "completed"=>false, "todo"=>{"title"=>"test", "completed"=>false}}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (1.5ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "test"], ["created_at", "2021-10-25 05:14:56.242951"], ["updated_at", "2021-10-25 05:14:56.242951"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 39ms (Views: 0.7ms | ActiveRecord: 18.9ms | Allocations: 4587)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:14:57 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 3567)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:14:58 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 21ms (Views: 7.9ms | ActiveRecord: 2.8ms | Allocations: 1915)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:15:00 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 3567)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms | Allocations: 3886)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:15:00 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (9.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 24ms (Views: 7.8ms | ActiveRecord: 9.5ms | Allocations: 1338)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 23:15:03 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>26, "title"=>"test", "completed"=>true, "created_at"=>"2021-10-25T05:14:56.242Z", "updated_at"=>"2021-10-25T05:14:56.242Z", "todo"=>{"id"=>26, "title"=>"test", "completed"=>true, "created_at"=>"2021-10-25T05:14:56.242Z", "updated_at"=>"2021-10-25T05:14:56.242Z"}}
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (4.1ms)[0m  [1m[33mUPDATE "todos" SET "completed" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["completed", true], ["updated_at", "2021-10-25 05:15:03.246303"], ["id", 26]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 7.3ms | Allocations: 3271)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:15:04 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 3573)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:15:04 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (5.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 13ms (Views: 5.0ms | ActiveRecord: 5.2ms | Allocations: 1337)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 23:15:11 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>26, "title"=>"testamsdasdasd", "completed"=>true, "created_at"=>"2021-10-25T05:14:56.242Z", "updated_at"=>"2021-10-25T05:15:03.246Z", "todo"=>{"id"=>26, "title"=>"testamsdasdasd", "completed"=>true, "created_at"=>"2021-10-25T05:14:56.242Z", "updated_at"=>"2021-10-25T05:15:03.246Z"}}
+  [1m[36mTodo Load (2.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (2.0ms)[0m  [1m[33mUPDATE "todos" SET "title" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["title", "testamsdasdasd"], ["updated_at", "2021-10-25 05:15:11.716537"], ["id", 26]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 23ms (Views: 0.8ms | ActiveRecord: 7.1ms | Allocations: 3035)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:15:13 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 3575)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 3893)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:15:14 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (10.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 24ms (Views: 4.6ms | ActiveRecord: 10.4ms | Allocations: 1515)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:18:19 -0600
+Processing by TodosController#all_todos as HTML
+  [1m[36mTodo Load (2.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 14ms (Views: 4.7ms | ActiveRecord: 2.2ms | Allocations: 1078)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:23:21 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 4107becdba55265ae40c
+Version: webpack 4.46.0
+Time: 3881ms
+Built at: 10/24/2021 11:23:28 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-69c9f78498caab23771d.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-69c9f78498caab23771d.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-69c9f78498caab23771d.js js/index-69c9f78498caab23771d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6855.3ms | Allocations: 4776)
+Completed 200 OK in 6862ms (Views: 6861.2ms | ActiveRecord: 0.0ms | Allocations: 5094)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:23:28 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (15.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 33ms (Views: 13.2ms | ActiveRecord: 15.0ms | Allocations: 1598)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:23:47 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 11ed9c99ff4c9bede910
+Version: webpack 4.46.0
+Time: 3507ms
+Built at: 10/24/2021 11:23:52 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-1523a1c7e319118ebb54.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-1523a1c7e319118ebb54.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-1523a1c7e319118ebb54.js js/index-1523a1c7e319118ebb54.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5608.8ms | Allocations: 4851)
+Completed 200 OK in 5610ms (Views: 5609.7ms | ActiveRecord: 0.0ms | Allocations: 5169)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:23:53 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (3.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 15ms (Views: 9.2ms | ActiveRecord: 3.0ms | Allocations: 1083)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:23:53 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>26, "title"=>"testamsdasdasd", "completed"=>true, "created_at"=>"2021-10-25T05:14:56.242Z", "updated_at"=>"2021-10-25T05:15:11.716Z", "todo"=>{"id"=>26, "title"=>"testamsdasdasd", "completed"=>true, "created_at"=>"2021-10-25T05:14:56.242Z", "updated_at"=>"2021-10-25T05:15:11.716Z"}}
+  [1m[36mTodo Load (1.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (6.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (4.6ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 26]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 32ms (Views: 0.6ms | ActiveRecord: 14.0ms | Allocations: 4849)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:23:59 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 3567)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:23:59 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (33.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 42ms (Views: 4.3ms | ActiveRecord: 33.6ms | Allocations: 997)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:24:01 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 3567)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:24:01 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 1.7ms | Allocations: 997)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:24:02 -0600
+Processing by TodosController#all_todos as HTML
+  [1m[36mTodo Load (3.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 11ms (Views: 4.7ms | ActiveRecord: 3.8ms | Allocations: 993)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:24:32 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: ca813fb9b55dd0c3cfbf
+Version: webpack 4.46.0
+Time: 3701ms
+Built at: 10/24/2021 11:24:39 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-fd5b4d73a75e9b3270c0.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-fd5b4d73a75e9b3270c0.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-fd5b4d73a75e9b3270c0.js js/index-fd5b4d73a75e9b3270c0.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6601.9ms | Allocations: 4784)
+Completed 200 OK in 6611ms (Views: 6606.7ms | ActiveRecord: 0.0ms | Allocations: 5102)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:24:39 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 10ms (Views: 4.3ms | ActiveRecord: 1.9ms | Allocations: 1037)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:24:41 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (1.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:24:42.002995"], ["updated_at", "2021-10-25 05:24:42.002995"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 20ms (Views: 0.6ms | ActiveRecord: 4.9ms | Allocations: 2520)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:24:45 -0600
+Processing by TodosController#all_todos as HTML
+  [1m[36mTodo Load (1.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.3ms | Allocations: 1078)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:24:48 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 3567)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:24:48 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (7.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 16ms (Views: 4.9ms | ActiveRecord: 7.2ms | Allocations: 1338)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 23:24:51 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>27, "title"=>"asd", "completed"=>true, "created_at"=>"2021-10-25T05:24:42.002Z", "updated_at"=>"2021-10-25T05:24:42.002Z", "todo"=>{"id"=>27, "title"=>"asd", "completed"=>true, "created_at"=>"2021-10-25T05:24:42.002Z", "updated_at"=>"2021-10-25T05:24:42.002Z"}}
+  [1m[36mTodo Load (1.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (1.8ms)[0m  [1m[33mUPDATE "todos" SET "completed" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["completed", true], ["updated_at", "2021-10-25 05:24:51.437490"], ["id", 27]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 21ms (Views: 0.5ms | ActiveRecord: 6.6ms | Allocations: 3034)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:24:53 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 3575)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 3895)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:24:53 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (8.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 20ms (Views: 6.3ms | ActiveRecord: 8.0ms | Allocations: 1654)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:32:46 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 3606c80217780ec5d3f4
+Version: webpack 4.46.0
+Time: 3586ms
+Built at: 10/24/2021 11:32:52 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-9632a84823bea47601f5.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-9632a84823bea47601f5.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-9632a84823bea47601f5.js js/index-9632a84823bea47601f5.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6081.6ms | Allocations: 4789)
+Completed 200 OK in 6100ms (Views: 6083.5ms | Allocations: 5104)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:32:53 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 58ms (Views: 3.6ms | ActiveRecord: 23.8ms | Allocations: 5678)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:32:55 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>27, "title"=>"asd", "completed"=>true, "created_at"=>"2021-10-25T05:24:42.002Z", "updated_at"=>"2021-10-25T05:24:51.437Z", "todo"=>{"id"=>27, "title"=>"asd", "completed"=>true, "created_at"=>"2021-10-25T05:24:42.002Z", "updated_at"=>"2021-10-25T05:24:51.437Z"}}
+  [1m[36mTodo Load (1.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (3.4ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 27]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 8.7ms | Allocations: 2912)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:33:00 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (2.7ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:33:00.609008"], ["updated_at", "2021-10-25 05:33:00.609008"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 20ms (Views: 1.0ms | ActiveRecord: 6.0ms | Allocations: 2521)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:33:02 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (2.8ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:33:02.517287"], ["updated_at", "2021-10-25 05:33:02.517287"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 4.9ms | Allocations: 2520)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:33:03 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (1.1ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:33:03.037001"], ["updated_at", "2021-10-25 05:33:03.037001"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 14ms (Views: 0.3ms | ActiveRecord: 3.8ms | Allocations: 2520)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:33:03 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>30, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:33:03.037Z", "updated_at"=>"2021-10-25T05:33:03.037Z", "todo"=>{"id"=>30, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:33:03.037Z", "updated_at"=>"2021-10-25T05:33:03.037Z"}}
+  [1m[36mTodo Load (3.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.0ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 30]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 7.3ms | Allocations: 2746)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:33:04 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>29, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:33:02.517Z", "updated_at"=>"2021-10-25T05:33:02.517Z", "todo"=>{"id"=>29, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:33:02.517Z", "updated_at"=>"2021-10-25T05:33:02.517Z"}}
+  [1m[36mTodo Load (1.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.1ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 29]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 5.3ms | Allocations: 2746)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:33:04 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>28, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:33:00.609Z", "updated_at"=>"2021-10-25T05:33:00.609Z", "todo"=>{"id"=>28, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:33:00.609Z", "updated_at"=>"2021-10-25T05:33:00.609Z"}}
+  [1m[36mTodo Load (2.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.0ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 28]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 7.0ms | Allocations: 2746)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:34:56 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: e9768660e7ec33523b02
+Version: webpack 4.46.0
+Time: 4193ms
+Built at: 10/24/2021 11:35:03 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-ac23f7cb171e4f742423.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-ac23f7cb171e4f742423.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-ac23f7cb171e4f742423.js js/index-ac23f7cb171e4f742423.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7018.7ms | Allocations: 4782)
+Completed 200 OK in 7022ms (Views: 7020.7ms | ActiveRecord: 0.0ms | Allocations: 5100)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:35:04 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 12ms (Views: 6.0ms | ActiveRecord: 2.8ms | Allocations: 1070)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:35:07 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (2.8ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:35:07.182544"], ["updated_at", "2021-10-25 05:35:07.182544"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 23ms (Views: 1.7ms | ActiveRecord: 6.5ms | Allocations: 2520)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:35:11 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (3.0ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:35:11.160957"], ["updated_at", "2021-10-25 05:35:11.160957"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 6.0ms | Allocations: 2520)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:35:12 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (2.1ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:35:12.795354"], ["updated_at", "2021-10-25 05:35:12.795354"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 4.2ms | Allocations: 2520)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:35:19 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 3569)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 3888)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:35:19 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 10ms (Views: 5.2ms | ActiveRecord: 2.1ms | Allocations: 2072)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:35:21 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 3573)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:35:21 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (4.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 22ms (Views: 9.4ms | ActiveRecord: 4.8ms | Allocations: 1516)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:35:23 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>33, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:12.795Z", "updated_at"=>"2021-10-25T05:35:12.795Z", "todo"=>{"id"=>33, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:12.795Z", "updated_at"=>"2021-10-25T05:35:12.795Z"}}
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (0.9ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 33]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 3.8ms | Allocations: 2746)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:35:23 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>32, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:11.160Z", "updated_at"=>"2021-10-25T05:35:11.160Z", "todo"=>{"id"=>32, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:11.160Z", "updated_at"=>"2021-10-25T05:35:11.160Z"}}
+  [1m[36mTodo Load (1.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.1ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 32]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 5.3ms | Allocations: 2746)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:35:26 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 3567)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:35:26 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (3.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 28ms (Views: 7.0ms | ActiveRecord: 3.3ms | Allocations: 1889)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:35:39 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 371fd1637a3f17972037
+Version: webpack 4.46.0
+Time: 3789ms
+Built at: 10/24/2021 11:35:46 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-edd50ec21bbdc76e0707.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-edd50ec21bbdc76e0707.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-edd50ec21bbdc76e0707.js js/index-edd50ec21bbdc76e0707.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6678.3ms | Allocations: 4786)
+Completed 200 OK in 6682ms (Views: 6681.3ms | ActiveRecord: 0.0ms | Allocations: 5106)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:35:46 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 8ms (Views: 4.8ms | ActiveRecord: 1.6ms | Allocations: 1084)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:35:48 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (1.7ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:35:48.439102"], ["updated_at", "2021-10-25 05:35:48.439102"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 6.3ms | Allocations: 2522)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:35:49 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (3.4ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:35:49.284313"], ["updated_at", "2021-10-25 05:35:49.284313"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 7.4ms | Allocations: 2522)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:35:49 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (1.1ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:35:49.798193"], ["updated_at", "2021-10-25 05:35:49.798193"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 4.0ms | Allocations: 2520)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:35:50 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (1.0ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:35:50.068045"], ["updated_at", "2021-10-25 05:35:50.068045"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 4.1ms | Allocations: 2521)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:35:50 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (1.1ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:35:50.778537"], ["updated_at", "2021-10-25 05:35:50.778537"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 4.1ms | Allocations: 2520)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:35:54 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>31, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:07.182Z", "updated_at"=>"2021-10-25T05:35:07.182Z", "todo"=>{"id"=>31, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:07.182Z", "updated_at"=>"2021-10-25T05:35:07.182Z"}}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.1ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 31]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 4.8ms | Allocations: 2746)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:35:54 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>34, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:48.439Z", "updated_at"=>"2021-10-25T05:35:48.439Z", "todo"=>{"id"=>34, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:48.439Z", "updated_at"=>"2021-10-25T05:35:48.439Z"}}
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (0.9ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 34]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 3.8ms | Allocations: 2746)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:35:55 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>35, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:49.284Z", "updated_at"=>"2021-10-25T05:35:49.284Z", "todo"=>{"id"=>35, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:49.284Z", "updated_at"=>"2021-10-25T05:35:49.284Z"}}
+  [1m[36mTodo Load (1.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (0.9ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 35]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 5.4ms | Allocations: 2746)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:35:56 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>36, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:49.798Z", "updated_at"=>"2021-10-25T05:35:49.798Z", "todo"=>{"id"=>36, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:49.798Z", "updated_at"=>"2021-10-25T05:35:49.798Z"}}
+  [1m[36mTodo Load (1.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (0.9ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 36]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 4.0ms | Allocations: 2746)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:35:56 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>37, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:50.068Z", "updated_at"=>"2021-10-25T05:35:50.068Z", "todo"=>{"id"=>37, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:50.068Z", "updated_at"=>"2021-10-25T05:35:50.068Z"}}
+  [1m[36mTodo Load (1.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.0ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 37]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 5.0ms | Allocations: 2746)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-24 23:35:57 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>38, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:50.778Z", "updated_at"=>"2021-10-25T05:35:50.778Z", "todo"=>{"id"=>38, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:35:50.778Z", "updated_at"=>"2021-10-25T05:35:50.778Z"}}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.5ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 38]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 11ms (Views: 0.7ms | ActiveRecord: 4.7ms | Allocations: 2746)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:38:24 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: e0bb7032e3289a518c7e
+Version: webpack 4.46.0
+Time: 3974ms
+Built at: 10/24/2021 11:38:30 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-fd8c59e54df46e11a158.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-fd8c59e54df46e11a158.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-fd8c59e54df46e11a158.js js/index-fd8c59e54df46e11a158.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6580.4ms | Allocations: 4790)
+Completed 200 OK in 6589ms (Views: 6585.8ms | ActiveRecord: 0.0ms | Allocations: 5109)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:38:31 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (4.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 19ms (Views: 9.5ms | ActiveRecord: 4.9ms | Allocations: 1117)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-24 23:38:34 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (2.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 05:38:34.029706"], ["updated_at", "2021-10-25 05:38:34.029706"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 23ms (Views: 1.1ms | ActiveRecord: 6.2ms | Allocations: 2520)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 23:38:45 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z", "todo"=>{"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z"}}
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.0ms | Allocations: 1125)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:41:15 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 98896884b8992bcc3861
+Version: webpack 4.46.0
+Time: 3681ms
+Built at: 10/24/2021 11:41:21 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-298a613c5aecb1c46612.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-298a613c5aecb1c46612.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-298a613c5aecb1c46612.js js/index-298a613c5aecb1c46612.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6139.9ms | Allocations: 4778)
+Completed 200 OK in 6142ms (Views: 6141.4ms | ActiveRecord: 0.0ms | Allocations: 5096)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:41:22 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (6.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 18ms (Views: 4.6ms | ActiveRecord: 6.1ms | Allocations: 1231)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:42:17 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: d4f67299f2c04ce9f9c2
+Version: webpack 4.46.0
+Time: 3982ms
+Built at: 10/24/2021 11:42:23 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-8014d539d7fcb8643871.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-8014d539d7fcb8643871.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-8014d539d7fcb8643871.js js/index-8014d539d7fcb8643871.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6734.7ms | Allocations: 4778)
+Completed 200 OK in 6736ms (Views: 6735.5ms | ActiveRecord: 0.0ms | Allocations: 5097)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:42:24 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (7.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 20ms (Views: 4.5ms | ActiveRecord: 7.2ms | Allocations: 1235)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:43:40 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 3573)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:43:41 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (3.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 15ms (Views: 5.8ms | ActiveRecord: 3.2ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:45:06 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 96018a5233fa4413abd8
+Version: webpack 4.46.0
+Time: 3990ms
+Built at: 10/24/2021 11:45:12 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-8b23a852ba07184a4d58.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-8b23a852ba07184a4d58.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-8b23a852ba07184a4d58.js js/index-8b23a852ba07184a4d58.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6543.4ms | Allocations: 4775)
+Completed 200 OK in 6545ms (Views: 6544.7ms | ActiveRecord: 0.0ms | Allocations: 5094)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:45:13 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 11ms (Views: 5.8ms | ActiveRecord: 1.3ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:46:35 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 78af55941f47a0bd9740
+Version: webpack 4.46.0
+Time: 4320ms
+Built at: 10/24/2021 11:46:41 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-c42f62b72ccf80e51852.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-c42f62b72ccf80e51852.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-c42f62b72ccf80e51852.js js/index-c42f62b72ccf80e51852.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7017.2ms | Allocations: 4787)
+Completed 200 OK in 7020ms (Views: 7019.4ms | ActiveRecord: 0.0ms | Allocations: 5107)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:46:42 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (5.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 21ms (Views: 9.1ms | ActiveRecord: 5.7ms | Allocations: 1291)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 23:46:47 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z", "todo"=>{"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z"}}
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 1124)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 23:46:49 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z", "todo"=>{"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z"}}
+  [1m[36mTodo Load (1.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 1.4ms | Allocations: 1126)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 23:49:56 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z", "todo"=>{"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z"}}
+  [1m[36mTodo Load (1.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+Completed 200 OK in 28ms (Views: 2.0ms | ActiveRecord: 1.9ms | Allocations: 1127)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 23:49:58 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z", "todo"=>{"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z"}}
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 1126)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-24 23:49:58 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z", "todo"=>{"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z"}}
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+Completed 200 OK in 10ms (Views: 2.4ms | ActiveRecord: 1.0ms | Allocations: 1126)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:51:22 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 3567)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:51:22 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 41ms (Views: 35.0ms | ActiveRecord: 1.8ms | Allocations: 1085)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:54:43 -0600
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 384)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 78af55941f47a0bd9740
+Version: webpack 4.46.0
+Time: 3453ms
+Built at: 10/24/2021 11:54:49 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-c42f62b72ccf80e51852.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-c42f62b72ccf80e51852.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-c42f62b72ccf80e51852.js js/index-c42f62b72ccf80e51852.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6017.6ms | Allocations: 15221)
+Completed 200 OK in 6039ms (Views: 6030.8ms | ActiveRecord: 0.0ms | Allocations: 18655)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:54:49 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (3.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 90ms (Views: 37.0ms | ActiveRecord: 30.9ms | Allocations: 6636)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:56:42 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 99497e9ca4d1529a654d
+Version: webpack 4.46.0
+Time: 3543ms
+Built at: 10/24/2021 11:56:47 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-b1eb1e0e559155c657ed.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-b1eb1e0e559155c657ed.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-b1eb1e0e559155c657ed.js js/index-b1eb1e0e559155c657ed.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5912.5ms | Allocations: 4811)
+Completed 200 OK in 5917ms (Views: 5915.7ms | ActiveRecord: 0.0ms | Allocations: 5134)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:56:48 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (4.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 10ms (Views: 3.2ms | ActiveRecord: 4.9ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-24 23:57:23 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 3567)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-24 23:57:23 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 2.1ms | Allocations: 1906)
+
+

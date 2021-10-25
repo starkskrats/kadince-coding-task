@@ -12,15 +12,23 @@ class TodosController < ApplicationController
 
   def update
     todo = Todo.find_by(id: params[:id])
-    todo.title = params[:title]
-    todo.completed = params[:completed]
-    todo.save
-    render json: todo
+    if todo
+      todo.title = params[:title]
+      todo.completed = params[:completed]
+      todo.save
+      render json: todo
+    else
+      render json: { message: "No such Todo item found!" }
+    end
   end
 
-  private
-
-  def todo_params
-    params.require(:todo).permit(:id, :title, :completed)
+  def delete
+    todo = Todo.find_by(id: params[:id])
+    if todo
+      todo.destroy
+      render json: { message: "Todo Item deleted successfully" }
+    else
+      render json: { message: "No such Todo item found!" }
+    end
   end
 end
