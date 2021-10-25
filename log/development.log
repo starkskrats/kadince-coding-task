@@ -7364,3 +7364,1017 @@ Processing by TodosController#all_todos as */*
 Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 2.1ms | Allocations: 1906)
 
 
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:21:58 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: e4723c04662f109fedef
+Version: webpack 4.46.0
+Time: 4357ms
+Built at: 10/25/2021 12:22:05 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-a77b1bb6e282a718cc1f.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-a77b1bb6e282a718cc1f.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-a77b1bb6e282a718cc1f.js js/index-a77b1bb6e282a718cc1f.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7186.8ms | Allocations: 4782)
+Completed 200 OK in 7201ms (Views: 7191.3ms | Allocations: 5099)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:22:57 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 6a93743fc299fff2fd06
+Version: webpack 4.46.0
+Time: 3707ms
+Built at: 10/25/2021 12:23:03 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-cda5cb1f62616f9f429c.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-cda5cb1f62616f9f429c.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-cda5cb1f62616f9f429c.js js/index-cda5cb1f62616f9f429c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6170.7ms | Allocations: 4777)
+Completed 200 OK in 6173ms (Views: 6171.6ms | Allocations: 5095)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:23:03 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (18.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 103ms (Views: 4.7ms | ActiveRecord: 57.2ms | Allocations: 6949)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:23:52 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 4d8e4044930d4f50ebff
+Version: webpack 4.46.0
+Time: 4133ms
+Built at: 10/25/2021 12:23:59 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-97d94213ee35c4cc720f.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-97d94213ee35c4cc720f.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-97d94213ee35c4cc720f.js js/index-97d94213ee35c4cc720f.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7050.4ms | Allocations: 4784)
+Completed 200 OK in 7106ms (Views: 7101.1ms | ActiveRecord: 0.0ms | Allocations: 5103)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:24:00 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (13.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 35ms (Views: 13.3ms | ActiveRecord: 13.3ms | Allocations: 1098)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:24:21 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 6a93743fc299fff2fd06
+Version: webpack 4.46.0
+Time: 3956ms
+Built at: 10/25/2021 12:24:28 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-cda5cb1f62616f9f429c.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-cda5cb1f62616f9f429c.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-cda5cb1f62616f9f429c.js js/index-cda5cb1f62616f9f429c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6589.0ms | Allocations: 4776)
+Completed 200 OK in 6595ms (Views: 6592.3ms | ActiveRecord: 0.0ms | Allocations: 5094)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:24:29 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (3.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 163ms (Views: 151.3ms | ActiveRecord: 3.1ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:25:19 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: dc7d3badbb2347bec1f6
+Version: webpack 4.46.0
+Time: 3828ms
+Built at: 10/25/2021 12:25:25 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-c218bf62b6c272e21972.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-c218bf62b6c272e21972.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-c218bf62b6c272e21972.js js/index-c218bf62b6c272e21972.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6394.2ms | Allocations: 4783)
+Completed 200 OK in 6396ms (Views: 6395.2ms | ActiveRecord: 0.0ms | Allocations: 5102)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:25:26 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (15.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 30ms (Views: 8.8ms | ActiveRecord: 15.4ms | Allocations: 1386)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:26:30 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: e3327903d652a46b968a
+Version: webpack 4.46.0
+Time: 3932ms
+Built at: 10/25/2021 12:26:36 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-84570ac033ee571d8a99.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-84570ac033ee571d8a99.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-84570ac033ee571d8a99.js js/index-84570ac033ee571d8a99.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6311.7ms | Allocations: 4783)
+Completed 200 OK in 6313ms (Views: 6312.6ms | ActiveRecord: 0.0ms | Allocations: 5102)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:26:37 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 1.5ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:27:59 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 6782a9dd66902cac0b58
+Version: webpack 4.46.0
+Time: 4671ms
+Built at: 10/25/2021 12:28:08 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-13e2897a747558327613.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-13e2897a747558327613.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-13e2897a747558327613.js js/index-13e2897a747558327613.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 8431.2ms | Allocations: 4789)
+Completed 200 OK in 8434ms (Views: 8433.4ms | ActiveRecord: 0.0ms | Allocations: 5108)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:28:08 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (7.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 26ms (Views: 12.4ms | ActiveRecord: 7.3ms | Allocations: 1095)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-25 00:28:26 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z", "todo"=>{"id"=>39, "title"=>"asd", "completed"=>false, "created_at"=>"2021-10-25T05:38:34.029Z", "updated_at"=>"2021-10-25T05:38:34.029Z"}}
+  [1m[36mTodo Load (2.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (2.0ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 39]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (4.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 137ms (Views: 0.3ms | ActiveRecord: 12.7ms | Allocations: 5993)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:28:48 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 4d8e4044930d4f50ebff
+Version: webpack 4.46.0
+Time: 2887ms
+Built at: 10/25/2021 12:28:53 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-97d94213ee35c4cc720f.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-97d94213ee35c4cc720f.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-97d94213ee35c4cc720f.js js/index-97d94213ee35c4cc720f.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 4624.2ms | Allocations: 4777)
+Completed 200 OK in 4642ms (Views: 4628.4ms | ActiveRecord: 0.0ms | Allocations: 5097)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:28:53 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 8ms (Views: 3.2ms | ActiveRecord: 1.7ms | Allocations: 998)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-25 00:29:08 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"test", "completed"=>false, "todo"=>{"title"=>"test", "completed"=>false}}
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (6.5ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "test"], ["created_at", "2021-10-25 06:29:08.345710"], ["updated_at", "2021-10-25 06:29:08.345710"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 22ms (Views: 0.6ms | ActiveRecord: 9.3ms | Allocations: 2880)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-25 00:29:12 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>40, "title"=>"testasd", "completed"=>false, "created_at"=>"2021-10-25T06:29:08.345Z", "updated_at"=>"2021-10-25T06:29:08.345Z", "todo"=>{"id"=>40, "title"=>"testasd", "completed"=>false, "created_at"=>"2021-10-25T06:29:08.345Z", "updated_at"=>"2021-10-25T06:29:08.345Z"}}
+  [1m[36mTodo Load (1.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (1.6ms)[0m  [1m[33mUPDATE "todos" SET "title" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["title", "testasd"], ["updated_at", "2021-10-25 06:29:12.718096"], ["id", 40]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 5.3ms | Allocations: 3148)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-25 00:29:18 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>40, "title"=>"testasd", "completed"=>true, "created_at"=>"2021-10-25T06:29:08.345Z", "updated_at"=>"2021-10-25T06:29:08.345Z", "todo"=>{"id"=>40, "title"=>"testasd", "completed"=>true, "created_at"=>"2021-10-25T06:29:08.345Z", "updated_at"=>"2021-10-25T06:29:08.345Z"}}
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (1.8ms)[0m  [1m[33mUPDATE "todos" SET "completed" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["completed", true], ["updated_at", "2021-10-25 06:29:18.345452"], ["id", 40]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 5.1ms | Allocations: 3040)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-25 00:29:26 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>40, "title"=>"testasd", "completed"=>false, "created_at"=>"2021-10-25T06:29:08.345Z", "updated_at"=>"2021-10-25T06:29:08.345Z", "todo"=>{"id"=>40, "title"=>"testasd", "completed"=>false, "created_at"=>"2021-10-25T06:29:08.345Z", "updated_at"=>"2021-10-25T06:29:08.345Z"}}
+  [1m[36mTodo Load (1.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (1.3ms)[0m  [1m[33mUPDATE "todos" SET "completed" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["completed", false], ["updated_at", "2021-10-25 06:29:26.071536"], ["id", 40]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 21ms (Views: 0.3ms | ActiveRecord: 5.6ms | Allocations: 3035)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:32:18 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: c8713481fbfc320a3c2f
+Version: webpack 4.46.0
+Time: 3687ms
+Built at: 10/25/2021 12:32:24 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-95bbc8814f4cec3b9b9f.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-95bbc8814f4cec3b9b9f.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-95bbc8814f4cec3b9b9f.js js/index-95bbc8814f4cec3b9b9f.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6207.8ms | Allocations: 4781)
+Completed 200 OK in 6211ms (Views: 6209.9ms | ActiveRecord: 0.0ms | Allocations: 5100)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:32:24 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 10ms (Views: 4.4ms | ActiveRecord: 1.3ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:32:43 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 94ec07ce29b18c037d7f
+Version: webpack 4.46.0
+Time: 4268ms
+Built at: 10/25/2021 12:32:49 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-8cc4bfef4f6d3fde0f27.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-8cc4bfef4f6d3fde0f27.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-8cc4bfef4f6d3fde0f27.js js/index-8cc4bfef4f6d3fde0f27.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6254.7ms | Allocations: 4785)
+Completed 200 OK in 6257ms (Views: 6256.6ms | ActiveRecord: 0.0ms | Allocations: 5104)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:32:49 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (51.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 115ms (Views: 58.3ms | ActiveRecord: 51.3ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:33:18 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 23.5ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 61c03a094a2b80699ff0
+Version: webpack 4.46.0
+Time: 3229ms
+Built at: 10/25/2021 12:33:23 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-031d6283a374f0a4a51b.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-031d6283a374f0a4a51b.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-031d6283a374f0a4a51b.js js/index-031d6283a374f0a4a51b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 4981.3ms | Allocations: 4779)
+Completed 200 OK in 4983ms (Views: 4982.2ms | ActiveRecord: 0.0ms | Allocations: 5098)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:33:23 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 2.4ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:33:38 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: a0e96b0b05c62c090559
+Version: webpack 4.46.0
+Time: 3763ms
+Built at: 10/25/2021 12:33:44 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-0100ab1a50d4da94edd3.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-0100ab1a50d4da94edd3.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-0100ab1a50d4da94edd3.js js/index-0100ab1a50d4da94edd3.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6362.4ms | Allocations: 4857)
+Completed 200 OK in 6364ms (Views: 6363.5ms | ActiveRecord: 0.0ms | Allocations: 5175)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:33:45 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 16ms (Views: 6.7ms | ActiveRecord: 1.9ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:34:23 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 90e272661e4939e351e2
+Version: webpack 4.46.0
+Time: 4001ms
+Built at: 10/25/2021 12:34:29 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-d2e5221f9cf64e085ef9.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-d2e5221f9cf64e085ef9.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-d2e5221f9cf64e085ef9.js js/index-d2e5221f9cf64e085ef9.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6227.4ms | Allocations: 4781)
+Completed 200 OK in 6229ms (Views: 6228.3ms | ActiveRecord: 0.0ms | Allocations: 5099)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:34:30 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 20ms (Views: 15.4ms | ActiveRecord: 2.3ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:34:40 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: ba085a2156c9b6a13498
+Version: webpack 4.46.0
+Time: 3692ms
+Built at: 10/25/2021 12:34:46 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-57ab30a2b945cefa2aed.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-57ab30a2b945cefa2aed.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-57ab30a2b945cefa2aed.js js/index-57ab30a2b945cefa2aed.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6063.6ms | Allocations: 4785)
+Completed 200 OK in 6069ms (Views: 6066.2ms | ActiveRecord: 0.0ms | Allocations: 5104)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:34:47 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (3.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 12ms (Views: 3.9ms | ActiveRecord: 3.3ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:35:42 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 8e84f87463960dac7861
+Version: webpack 4.46.0
+Time: 3947ms
+Built at: 10/25/2021 12:35:48 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-e41822f6d44381373277.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-e41822f6d44381373277.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-e41822f6d44381373277.js js/index-e41822f6d44381373277.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6583.7ms | Allocations: 4795)
+Completed 200 OK in 6589ms (Views: 6587.9ms | ActiveRecord: 0.0ms | Allocations: 5115)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:35:48 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 10ms (Views: 2.5ms | ActiveRecord: 2.1ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:37:36 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: c3044f805c9e39b651af
+Version: webpack 4.46.0
+Time: 4038ms
+Built at: 10/25/2021 12:37:43 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-e62c888f3a66be627524.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-e62c888f3a66be627524.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-e62c888f3a66be627524.js js/index-e62c888f3a66be627524.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6881.3ms | Allocations: 4786)
+Completed 200 OK in 6885ms (Views: 6883.5ms | ActiveRecord: 0.0ms | Allocations: 5104)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:37:44 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 31ms (Views: 18.8ms | ActiveRecord: 2.6ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:39:54 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 7e7757bc399b84102e65
+Version: webpack 4.46.0
+Time: 4080ms
+Built at: 10/25/2021 12:40:00 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-fb45d4edea148e3b6b06.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-fb45d4edea148e3b6b06.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-fb45d4edea148e3b6b06.js js/index-fb45d4edea148e3b6b06.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6459.5ms | Allocations: 4782)
+Completed 200 OK in 6462ms (Views: 6461.1ms | ActiveRecord: 0.0ms | Allocations: 5101)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:40:00 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (4.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 11ms (Views: 3.5ms | ActiveRecord: 4.2ms | Allocations: 1083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:40:54 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 3f4de439a07f514abbe8
+Version: webpack 4.46.0
+Time: 3917ms
+Built at: 10/25/2021 12:41:01 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-f14689c71b2c22c2b779.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-f14689c71b2c22c2b779.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-f14689c71b2c22c2b779.js js/index-f14689c71b2c22c2b779.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6532.8ms | Allocations: 4780)
+Completed 200 OK in 6536ms (Views: 6534.7ms | ActiveRecord: 0.0ms | Allocations: 5099)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:41:01 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 101ms (Views: 96.7ms | ActiveRecord: 1.3ms | Allocations: 1084)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:42:32 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 8e84f87463960dac7861
+Version: webpack 4.46.0
+Time: 3611ms
+Built at: 10/25/2021 12:42:38 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-e41822f6d44381373277.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-e41822f6d44381373277.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-e41822f6d44381373277.js js/index-e41822f6d44381373277.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6316.0ms | Allocations: 4783)
+Completed 200 OK in 6319ms (Views: 6317.9ms | ActiveRecord: 0.0ms | Allocations: 5103)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:42:38 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 40ms (Views: 27.7ms | ActiveRecord: 2.0ms | Allocations: 1083)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-25 00:42:51 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"asd", "completed"=>false, "todo"=>{"title"=>"asd", "completed"=>false}}
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (2.1ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asd"], ["created_at", "2021-10-25 06:42:51.154299"], ["updated_at", "2021-10-25 06:42:51.154299"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 7.6ms | Allocations: 2521)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-25 00:42:53 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>41, "title"=>"asd", "completed"=>true, "created_at"=>"2021-10-25T06:42:51.154Z", "updated_at"=>"2021-10-25T06:42:51.154Z", "todo"=>{"id"=>41, "title"=>"asd", "completed"=>true, "created_at"=>"2021-10-25T06:42:51.154Z", "updated_at"=>"2021-10-25T06:42:51.154Z"}}
+  [1m[36mTodo Load (1.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (3.2ms)[0m  [1m[33mUPDATE "todos" SET "completed" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["completed", true], ["updated_at", "2021-10-25 06:42:53.501045"], ["id", 41]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 17ms (Views: 1.4ms | ActiveRecord: 6.7ms | Allocations: 3030)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-25 00:42:58 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>40, "title"=>"testasd", "completed"=>false, "created_at"=>"2021-10-25T06:29:08.345Z", "updated_at"=>"2021-10-25T06:29:26.071Z", "todo"=>{"id"=>40, "title"=>"testasd", "completed"=>false, "created_at"=>"2021-10-25T06:29:08.345Z", "updated_at"=>"2021-10-25T06:29:26.071Z"}}
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.3ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 40]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 5.3ms | Allocations: 2746)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:57:03 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 90e483c6094b40c76593
+Version: webpack 4.46.0
+Time: 4204ms
+Built at: 10/25/2021 12:57:09 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b79847a82961d80177ce.js   71.5 KiB  application  [emitted] [immutable]  application
+js/application-b79847a82961d80177ce.js.map   80.1 KiB  application  [emitted] [dev]        application
+          js/index-857c0e4ca09955862b0d.js   2.53 MiB        index  [emitted] [immutable]  index
+      js/index-857c0e4ca09955862b0d.js.map   2.74 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-b79847a82961d80177ce.js js/application-b79847a82961d80177ce.js.map
+Entrypoint index = js/index-857c0e4ca09955862b0d.js js/index-857c0e4ca09955862b0d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 435 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 79 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6633.6ms | Allocations: 4784)
+Completed 200 OK in 6639ms (Views: 6635.8ms | Allocations: 5100)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:57:10 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (4.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 289ms (Views: 5.3ms | ActiveRecord: 59.4ms | Allocations: 6660)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-25 00:57:15 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"testing", "completed"=>false, "todo"=>{"title"=>"testing", "completed"=>false}}
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (4.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "testing"], ["created_at", "2021-10-25 06:57:15.570132"], ["updated_at", "2021-10-25 06:57:15.570132"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 21ms (Views: 0.3ms | ActiveRecord: 8.9ms | Allocations: 2521)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-25 00:57:21 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>42, "title"=>"testing", "completed"=>true, "created_at"=>"2021-10-25T06:57:15.570Z", "updated_at"=>"2021-10-25T06:57:15.570Z", "todo"=>{"id"=>42, "title"=>"testing", "completed"=>true, "created_at"=>"2021-10-25T06:57:15.570Z", "updated_at"=>"2021-10-25T06:57:15.570Z"}}
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (3.2ms)[0m  [1m[33mUPDATE "todos" SET "completed" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["completed", true], ["updated_at", "2021-10-25 06:57:21.272556"], ["id", 42]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 20ms (Views: 0.4ms | ActiveRecord: 8.8ms | Allocations: 3197)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-25 00:57:28 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>41, "title"=>"andrew", "completed"=>true, "created_at"=>"2021-10-25T06:42:51.154Z", "updated_at"=>"2021-10-25T06:42:53.501Z", "todo"=>{"id"=>41, "title"=>"andrew", "completed"=>true, "created_at"=>"2021-10-25T06:42:51.154Z", "updated_at"=>"2021-10-25T06:42:53.501Z"}}
+  [1m[36mTodo Load (2.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (1.3ms)[0m  [1m[33mUPDATE "todos" SET "title" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["title", "andrew"], ["updated_at", "2021-10-25 06:57:28.088507"], ["id", 41]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 20ms (Views: 1.9ms | ActiveRecord: 7.5ms | Allocations: 3031)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-25 00:57:31 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>41, "title"=>"andrew", "completed"=>false, "created_at"=>"2021-10-25T06:42:51.154Z", "updated_at"=>"2021-10-25T06:42:53.501Z", "todo"=>{"id"=>41, "title"=>"andrew", "completed"=>false, "created_at"=>"2021-10-25T06:42:51.154Z", "updated_at"=>"2021-10-25T06:42:53.501Z"}}
+  [1m[36mTodo Load (1.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (2.5ms)[0m  [1m[33mUPDATE "todos" SET "completed" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["completed", false], ["updated_at", "2021-10-25 06:57:31.206658"], ["id", 41]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 7.2ms | Allocations: 3030)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 00:57:34 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 3575)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 3894)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 00:57:35 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 10ms (Views: 4.7ms | ActiveRecord: 2.6ms | Allocations: 1169)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 01:00:32 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 3567)
+Completed 200 OK in 49ms (Views: 45.4ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 01:00:33 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (3.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 22ms (Views: 10.7ms | ActiveRecord: 3.4ms | Allocations: 1169)
+
+
+Started POST "/todos/create" for 127.0.0.1 at 2021-10-25 01:00:44 -0600
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"Get bread and milk", "completed"=>false, "todo"=>{"title"=>"Get bread and milk", "completed"=>false}}
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTodo Create (2.0ms)[0m  [1m[32mINSERT INTO "todos" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Get bread and milk"], ["created_at", "2021-10-25 07:00:44.726587"], ["updated_at", "2021-10-25 07:00:44.726587"]]
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:9:in `create'
+Completed 200 OK in 69ms (Views: 0.3ms | ActiveRecord: 4.7ms | Allocations: 2523)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-25 01:00:51 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>43, "title"=>"Get bread and milk and eggs", "completed"=>false, "created_at"=>"2021-10-25T07:00:44.726Z", "updated_at"=>"2021-10-25T07:00:44.726Z", "todo"=>{"id"=>43, "title"=>"Get bread and milk and eggs", "completed"=>false, "created_at"=>"2021-10-25T07:00:44.726Z", "updated_at"=>"2021-10-25T07:00:44.726Z"}}
+  [1m[36mTodo Load (1.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (2.7ms)[0m  [1m[33mUPDATE "todos" SET "title" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["title", "Get bread and milk and eggs"], ["updated_at", "2021-10-25 07:00:51.913737"], ["id", 43]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 48ms (Views: 0.4ms | ActiveRecord: 7.6ms | Allocations: 3034)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-25 01:00:53 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 3575)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 3894)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-25 01:00:54 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (41.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 47ms (Views: 4.0ms | ActiveRecord: 41.1ms | Allocations: 1257)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-25 01:00:58 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>43, "title"=>"Get bread and milk and eggs", "completed"=>true, "created_at"=>"2021-10-25T07:00:44.726Z", "updated_at"=>"2021-10-25T07:00:51.913Z", "todo"=>{"id"=>43, "title"=>"Get bread and milk and eggs", "completed"=>true, "created_at"=>"2021-10-25T07:00:44.726Z", "updated_at"=>"2021-10-25T07:00:51.913Z"}}
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (1.4ms)[0m  [1m[33mUPDATE "todos" SET "completed" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["completed", true], ["updated_at", "2021-10-25 07:00:58.290659"], ["id", 43]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 15ms (Views: 0.5ms | ActiveRecord: 5.2ms | Allocations: 3032)
+
+
+Started PUT "/todos/update" for 127.0.0.1 at 2021-10-25 01:01:08 -0600
+Processing by TodosController#update as */*
+  Parameters: {"id"=>41, "title"=>"andrew", "completed"=>true, "created_at"=>"2021-10-25T06:42:51.154Z", "updated_at"=>"2021-10-25T06:57:31.206Z", "todo"=>{"id"=>41, "title"=>"andrew", "completed"=>true, "created_at"=>"2021-10-25T06:42:51.154Z", "updated_at"=>"2021-10-25T06:57:31.206Z"}}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:14:in `update'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTodo Update (1.0ms)[0m  [1m[33mUPDATE "todos" SET "completed" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["completed", true], ["updated_at", "2021-10-25 07:01:08.919999"], ["id", 41]]
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:18:in `update'
+Completed 200 OK in 25ms (Views: 0.9ms | ActiveRecord: 3.8ms | Allocations: 3030)
+
+
+Started DELETE "/todos/delete" for 127.0.0.1 at 2021-10-25 01:01:12 -0600
+Processing by TodosController#delete as */*
+  Parameters: {"id"=>43, "title"=>"Get bread and milk and eggs", "completed"=>true, "created_at"=>"2021-10-25T07:00:44.726Z", "updated_at"=>"2021-10-25T07:00:51.913Z", "todo"=>{"id"=>43, "title"=>"Get bread and milk and eggs", "completed"=>true, "created_at"=>"2021-10-25T07:00:44.726Z", "updated_at"=>"2021-10-25T07:00:51.913Z"}}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:26:in `delete'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTodo Destroy (1.1ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 43]]
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:28:in `delete'
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 4.9ms | Allocations: 2746)
+
+
