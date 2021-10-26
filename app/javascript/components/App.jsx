@@ -19,6 +19,8 @@ const App  = () => {
         setTodos(response);
       })
       .catch(() => console.log('An error occurred while fetching the todos'));
+
+      $("input:radio[name=filter][value=All]").trigger("click");
     }, []);
     
     const handleChange = (event) => {

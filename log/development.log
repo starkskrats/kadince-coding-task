@@ -8378,3 +8378,97 @@ Processing by TodosController#delete as */*
 Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 4.9ms | Allocations: 2746)
 
 
+Started GET "/" for 127.0.0.1 at 2021-10-26 00:51:32 -0600
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 277)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/andrewstarks/Projects/kadince-coding-task/public/packs
+[Webpacker] Hash: 91dbd2e6577537fd5740
+Version: webpack 4.46.0
+Time: 12368ms
+Built at: 10/26/2021 12:51:48 AM
+                                         Asset      Size           Chunks                         Chunk Names
+        js/application-b994f8c40b8271bf4f3c.js  1.43 MiB      application  [emitted] [immutable]  application
+    js/application-b994f8c40b8271bf4f3c.js.map   1.5 MiB      application  [emitted] [dev]        application
+              js/index-28e9c7587ba7c92b3134.js  2.53 MiB            index  [emitted] [immutable]  index
+          js/index-28e9c7587ba7c92b3134.js.map  2.74 MiB            index  [emitted] [dev]        index
+    js/src/application-8b7377ba019f732b0ec6.js   759 KiB  src/application  [emitted] [immutable]  src/application
+js/src/application-8b7377ba019f732b0ec6.js.map   791 KiB  src/application  [emitted] [dev]        src/application
+                                 manifest.json     1 KiB                   [emitted]              
+Entrypoint application = js/application-b994f8c40b8271bf4f3c.js js/application-b994f8c40b8271bf4f3c.js.map
+Entrypoint index = js/index-28e9c7587ba7c92b3134.js js/index-28e9c7587ba7c92b3134.js.map
+Entrypoint src/application = js/src/application-8b7377ba019f732b0ec6.js js/src/application-8b7377ba019f732b0ec6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 488 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 687 bytes {index} [built]
+[./app/javascript/packs/src/application.scss] 676 bytes {src/application} {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/packs/src/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/packs/src/application.scss 744 KiB {application} {src/application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 80 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 15449.7ms | Allocations: 10042)
+Completed 200 OK in 15463ms (Views: 15457.8ms | ActiveRecord: 0.0ms | Allocations: 12598)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-26 00:51:49 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (13.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 162ms (Views: 27.1ms | ActiveRecord: 108.5ms | Allocations: 6070)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-26 00:52:05 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 4102)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 4422)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-26 00:52:06 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 10ms (Views: 4.2ms | ActiveRecord: 2.4ms | Allocations: 1184)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-26 00:52:14 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 4102)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 4422)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-26 00:52:14 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 1.1ms | Allocations: 1169)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-26 00:52:31 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 4102)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms | Allocations: 4420)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-26 00:52:31 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (2.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 20ms (Views: 8.6ms | ActiveRecord: 2.7ms | Allocations: 1169)
+
+
