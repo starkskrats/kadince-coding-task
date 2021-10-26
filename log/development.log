@@ -8472,3 +8472,83 @@ Processing by TodosController#all_todos as */*
 Completed 200 OK in 20ms (Views: 8.6ms | ActiveRecord: 2.7ms | Allocations: 1169)
 
 
+Started GET "/" for 127.0.0.1 at 2021-10-26 01:00:04 -0600
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 98.7ms | Allocations: 8480)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 0.0ms | Allocations: 10976)
+
+
+  
+ActionView::Template::Error (Webpacker can't find https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js in /Users/andrewstarks/Projects/kadince-coding-task/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-b994f8c40b8271bf4f3c.js",
+  "application.js.map": "/packs/js/application-b994f8c40b8271bf4f3c.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-b994f8c40b8271bf4f3c.js"
+      ],
+      "js.map": [
+        "/packs/js/application-b994f8c40b8271bf4f3c.js.map"
+      ]
+    },
+    "index": {
+      "js": [
+        "/packs/js/index-28e9c7587ba7c92b3134.js"
+      ],
+      "js.map": [
+        "/packs/js/index-28e9c7587ba7c92b3134.js.map"
+      ]
+    },
+    "src/application": {
+      "js": [
+        "/packs/js/src/application-8b7377ba019f732b0ec6.js"
+      ],
+      "js.map": [
+        "/packs/js/src/application-8b7377ba019f732b0ec6.js.map"
+      ]
+    }
+  },
+  "index.js": "/packs/js/index-28e9c7587ba7c92b3134.js",
+  "index.js.map": "/packs/js/index-28e9c7587ba7c92b3134.js.map",
+  "src/application.js": "/packs/js/src/application-8b7377ba019f732b0ec6.js",
+  "src/application.js.map": "/packs/js/src/application-8b7377ba019f732b0ec6.js.map"
+}
+):
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <%= stylesheet_link_tag "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" %>
+    11:     <%= javascript_pack_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" %>
+    12:     <%= javascript_pack_tag 'index' %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-10-26 01:01:52 -0600
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.9ms | Allocations: 4449)
+Completed 200 OK in 61ms (Views: 52.9ms | ActiveRecord: 0.0ms | Allocations: 5481)
+
+
+Started GET "/todos/all_todos" for 127.0.0.1 at 2021-10-26 01:01:52 -0600
+Processing by TodosController#all_todos as */*
+  [1m[36mTodo Load (5.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" ORDER BY "todos"."created_at" ASC[0m
+  ↳ app/controllers/todos_controller.rb:4:in `all_todos'
+Completed 200 OK in 182ms (Views: 67.1ms | ActiveRecord: 43.2ms | Allocations: 7289)
+
+
